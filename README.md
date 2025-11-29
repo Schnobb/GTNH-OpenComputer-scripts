@@ -18,6 +18,8 @@ Comes with an optional rc.d daemon called mainmond in the rc sub-directory if yo
 
 Check out mainmon/config.lua to configure monitored channel and name them.
 
+Other than a tier 2 redstone card the hardware requirements are pretty minimal. I think you can even get away with only 2 tier 1 memory and the tier 1 CPU. Refresh time is only going to be a bit slower.
+
 ![Screenshot](https://raw.githubusercontent.com/Schnobb/GTNH-OpenComputer-scripts/master/assets/2.png)
 
 ## Requirements
