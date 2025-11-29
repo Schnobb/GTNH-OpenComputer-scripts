@@ -9,6 +9,8 @@ local files = {
 }
 -- ====
 
+print("\27[33mNote that this uninstaller does not uninstall services. Please disable and clean them up from rc manually.\27[m\n")
+
 for i=1, #files do
     local full_path = files[i]
     local folder_name, file_name = full_path:match("(.-)/?([^/]+)$")

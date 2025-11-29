@@ -1,4 +1,4 @@
--- run 'py build.py' on host, run server.bat, and install in-game using 'wget http://127.0.0.1:8000/setup.lua && setup'
+-- run 'py build.py' on host, run server.bat, and install in-game using 'wget -f http://127.0.0.1:8000/setup.lua && setup'
 
 local os = require("os")
 local fs = require("filesystem")
