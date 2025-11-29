@@ -1,0 +1,11 @@
+# build stuff
+server.bat
+setup.lua
+build.py
+
+# uninstall.lua is automatically added in the build script
+uninstall.lua
+
+# templates
+setup.template.lua
+uninstall.template.lua
