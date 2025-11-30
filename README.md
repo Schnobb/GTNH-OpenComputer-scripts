@@ -8,6 +8,8 @@ This is just a collection of OC computer scripts for my GTNH run. Mostly experim
 
 Maintenance Monitor
 
+![Screenshot](https://raw.githubusercontent.com/Schnobb/GTNH-OpenComputer-scripts/master/assets/1.png)
+
 Sweeps wireless redstone channels using a tier 2 redstone card and raises an alarm when a signal is detected on a monitored channel. 
 
 The module enables a redstone signal in the back of the computer if an alert is detected, this can be used to trigger an howler alarm or a lamp or whatever. 
@@ -15,6 +17,10 @@ The module enables a redstone signal in the back of the computer if an alert is 
 Comes with an optional rc.d daemon called mainmond in the rc sub-directory if you want to install it as a service.
 
 Check out mainmon/config.lua to configure monitored channel and name them.
+
+Other than a tier 2 redstone card the hardware requirements are pretty minimal. I think you can even get away with only 2 tier 1 memory and the tier 1 CPU. Refresh time is only going to be a bit slower.
+
+![Screenshot](https://raw.githubusercontent.com/Schnobb/GTNH-OpenComputer-scripts/master/assets/2.png)
 
 ## Requirements
 
