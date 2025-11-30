@@ -9,3 +9,7 @@ uninstall.lua
 # templates
 setup.template.lua
 uninstall.template.lua
+
+# other
+assets/
+README.md
